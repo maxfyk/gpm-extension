@@ -1,0 +1,33 @@
+{
+  "name": "gpm-extension",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "dev": "bun run build.ts --watch",
+    "build": "bun run build.ts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.27",
+    "bun-types": "^1.3.2",
+    "vite": "^7.2.2"
+  }
+}
